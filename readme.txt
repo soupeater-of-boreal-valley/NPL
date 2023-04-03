@@ -1,7 +1,7 @@
                                         ***SIMPLE CODEING LANGAUGE***
 Hi, this is a simple codeing langauge i made for fun. It is made with python so don't expect it to run fast.
 
-
+if you find a bug or are having issue with programming useing scl i am happy to help you.
 
                                                 ***scl.py***
 scl.py is the file that i made to let me actualy use the langauge to program.
@@ -11,6 +11,15 @@ here are the commands:
                                                 COMMAND LISTS
 _____________________________________________________________________________________________________________                         
 command list for main:
+
+* save
+--- saves the program.
+
+* run
+--- runs the program.
+
+* exit
+--- sends you back to the starting menu.
 
 * import{ lib.
 --- gives you access to more functions
@@ -80,6 +89,71 @@ command list for math:
 
 
                                   ____________________________________________
+                                 
+                                 
+
+                                       ---tutorial for scl.py interface---
+start screen:
+---
+welcome to Simple Coding Language.
+
+
+1>>>[file]
+2>>>[console]
+>>>_
+---
+from here write: 1
+it should look like this:
+---
+welcome to Simple Coding Language.
+
+
+1>>>[file]
+2>>>[console]
+>>>1
+do you want to delete the old project?
+>>>_
+---
+then you can say yes or no, if you say yes it will delete whatever is saved on save.py
+i have a very simple example program saved on save.py
+---
+do you want to delete the old project?
+>>>no
+0 >> crtv{ 1
+1 >> send{ robot: hello, i am robot.
+2 >> while{ v 0 v 0
+3 >> inp{}
+4 >> ifinp{ = hi
+5 >> send{ robot: hi, what is your favorate colour?
+6 >> ifinp{ = blue
+7 >> send{ robot: that is interesting.
+8 >> ifinp{ = blue
+9 >> wait{ 3
+10 >> ifinp{ = blue
+11 >> end{}
+12 >> ifinp{ = yellow
+13 >> send{ robot: i don't like yellow.
+14 >> ifinp{ = yellow
+15 >> end{}
+16 >> ifinp{ robot: good choice. what do you think about the stars in the sky?
+17 >> inp{}
+18 >> end{}
+19 >> break{}
+20 >>
+None_
+---
+if you chose to delete the old file
+---
+do you want to delete the old project?
+>>>yes
+0 >>
+None
+---
+it shows you a blank file.
+
+*note - it says None before were you type, that is a bug, i am trying to fix it so wish me luck but for now it changes nothing exept of visual and you can view all
+        of what you wrote normaly if you just save and exit.
+
                                                       WHY?
 a question i commonly ask myself is why did i do this? well by making this i have learned a lot and can now also add more to the
 langauge and slowly make it better then python. it is also given me things to do over the holiday.
@@ -151,6 +225,14 @@ NEW FEATURES:
 FEATURES:
 * import math
 * graphs
-* more 
+* def{ command
+* scl.py interface update
+* potential scl runner update
+* get a logo
 
 BUG FIXES:
+* while{ inp fix
+* send{ inp fix
+* send{ v x fix
+* general if command fix
+* fix the None bug
