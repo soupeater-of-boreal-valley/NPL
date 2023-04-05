@@ -1,7 +1,7 @@
 import pickle
 import sclf as sc
 
-with open('C:/Users/22sobolevm/Downloads/simplecode/save.py', 'rb') as fp:
+with open('save.py', 'rb') as fp:
     alinp = pickle.load(fp)
 
 while True:
