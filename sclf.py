@@ -147,5 +147,52 @@ def runscl(alinp):
                 v = v + [random.choice(v)]
             if inpsp[0] == "random{}":
                 v = v + [random.random()]
-
-
+        if mat == 1:
+            vt = False
+            if inpsp[0] == "add{":
+                if inpsp[1] == "inp":
+                    inpsp[1] = a
+                if inpsp[1] == "v":
+                    vt = True
+                    inpsp[1] = v[int(inpsp[2])]
+                else:
+                    asdf = 1
+                if vt == False:
+                    if inpsp[2] == "inp":
+                        inpsp[2] = a
+                    elif inpsp[2] == "v":
+                        inpsp[2] = v[int(inpsp[3])]
+                    else:
+                        asdf = 1
+                else:
+                    if inpsp[3] == "inp":
+                        inpsp[2] = a
+                    if inpsp[3] == "v":
+                        inpsp[2] = v[int(inpsp[4])]
+                    else:
+                        asdf = 1
+                v = v + [int(inpsp[1]) + int(inpsp[2])]
+            if inpsp == "x{":
+                if inpsp[1] == "inp":
+                    inpsp[1] = a
+                if inpsp[1] == "v":
+                    vt = True
+                    inpsp[1] = v[int(inpsp[2])]
+                else:
+                    asdf = 1
+                if vt == False:
+                    if inpsp[2] == "inp":
+                        inpsp[2] = a
+                    elif inpsp[2] == "v":
+                        inpsp[2] = v[int(inpsp[3])]
+                    else:
+                        asdf = 1
+                else:
+                    if inpsp[3] == "inp":
+                        inpsp[2] = a
+                    if inpsp[3] == "v":
+                        inpsp[2] = v[int(inpsp[4])]
+                    else:
+                        asdf = 1
+                v = v + [int(inpsp[1]) * int(inpsp[2])]
+                
