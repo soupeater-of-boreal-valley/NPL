@@ -86,7 +86,11 @@ n- enemy damage is set to enemy hp / 1.5.
 * will be added later *
 command list for math:
 
+* add{ obj. obj.
+--- adds the two obj together (if it is a variable write v num.)
 
+* x{ obj. obj.
+--- same as add{ but multiply instead of add
 
                                   ____________________________________________
                                  
@@ -178,6 +182,12 @@ python to work and can be used as an import to change whatever you put into "scl
 there will be meany upgrades to sclf.py, it is currantly at 1.05.
 
                                               ---PREVIOUS UPDATES---
+---1.06
+NEW FEATURES:
+* math import
+* add{ command
+* x{ command
+
 ---1.05
 NEW FEATURES:
 * imports
@@ -223,7 +233,6 @@ NEW FEATURES:
 
                                               ---FUTURE UPDATES---
 FEATURES:
-* import math
 * graphs
 * def{ command
 * scl.py interface update
@@ -231,6 +240,7 @@ FEATURES:
 * get a logo
 
 BUG FIXES:
+* crtv{ with multiple words
 * while{ inp fix
 * send{ inp fix
 * send{ v x fix
