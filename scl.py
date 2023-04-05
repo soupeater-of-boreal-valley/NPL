@@ -17,7 +17,7 @@ while True:
         inp = input(">>>")
         #look at if there was any old saved data
         if inp == "no":
-            with open('C:/Users/22sobolevm/Downloads/simplecode/save.py', 'rb') as fp:
+            with open('save.py', 'rb') as fp:
                 alinp = pickle.load(fp)
                 a = True
                 for count in range(len(alinp)):
@@ -33,7 +33,7 @@ while True:
                     elif inp == "exit":
                         a = False
                     elif inp == "save":
-                        with open('C:/Users/22sobolevm/Downloads/simplecode/save.py', 'wb') as fp:
+                        with open('save.py', 'wb') as fp:
                             pickle.dump(alinp, fp)
                     elif inpsp[0] == "edit":
                         for count in range(len(alinp)):
@@ -62,7 +62,7 @@ while True:
                 elif inp == "exit":
                     a = False
                 elif inp == "save":
-                    with open('C:/Users/22sobolevm/Downloads/simplecode/save.py', 'wb') as fp:
+                    with open('save.py', 'wb') as fp:
                         pickle.dump(alinp, fp)
                 elif inpsp[0] == "edit":
                     for count in range(len(alinp)):
