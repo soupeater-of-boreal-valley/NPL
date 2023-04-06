@@ -58,7 +58,7 @@ command list for main:
 command list for random:
 
 * d{ num.
---- creates a variable that is 1-*num.*.
+--- creates a variable that is 1 to *num.*.
 
 * vpick{}
 --- creates a variable this is = a random variable that has perviously been created.
