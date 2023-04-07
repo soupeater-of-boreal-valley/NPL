@@ -14,7 +14,7 @@ def runscl(alinp):
     for count in range(len(alinp)):
         inp = alinp[count]
         inpsp = inp.split(" ")
-              if inpsp[0] == "send{":
+        if inpsp[0] == "send{":
             for count in range(len(inpsp)):
                 inpsp[0] = ""
                 if inpsp[count] == "v":
