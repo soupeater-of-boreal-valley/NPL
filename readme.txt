@@ -182,6 +182,11 @@ python to work and can be used as an import to change whatever you put into "scl
 there will be meany upgrades to sclf.py, it is currantly at 1.05.
 
                                               ---PREVIOUS UPDATES---
+---1.07
+BUG FIXES:
+* send{ inp fixed
+* send{ v num. fixed
+
 ---1.06
 NEW FEATURES:
 * math import
@@ -242,7 +247,5 @@ FEATURES:
 BUG FIXES:
 * crtv{ with multiple words
 * while{ inp fix
-* send{ inp fix
-* send{ v x fix
 * general if command fix
 * fix the None bug
